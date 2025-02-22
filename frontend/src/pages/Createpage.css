@@ -1,0 +1,48 @@
+.imageadd{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(20,20,50);
+    border-radius: 20px;
+    padding: calc(1vh + 1vw);
+    margin: 5vh auto;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.imageadd h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: calc(1.3vh + 1.3vw);
+    text-transform: uppercase;
+    margin-bottom: 8vh;
+}
+.imageadd input{
+    margin: 4% auto;
+    display: block;
+    width: 80%;
+    height: 10%;
+    background-color: transparent;
+    border: 1px solid rgb(133, 231, 238);
+    text-align: center;
+    color: aliceblue;
+}
+.imageadd button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 8%;
+    padding: 3%;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.imageadd button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgb(208, 114, 243);
+    transition: 0.3s;
+}
